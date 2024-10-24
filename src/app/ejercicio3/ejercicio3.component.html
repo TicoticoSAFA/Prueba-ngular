@@ -1,0 +1,7 @@
+<div>
+  <button (click)="agregarTarea()">Agregar</button>
+</div>
+<ul>
+  <!-- Iteramos el arreglo de tareas y mostramos cada una de ellas -->
+  <li *ngFor="let tarea of tareas">{{ tarea }}</li>
+</ul>

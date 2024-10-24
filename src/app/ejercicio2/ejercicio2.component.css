@@ -1,0 +1,25 @@
+.myClass{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.buttonClass{
+    background-color: #004bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.buttonClass:hover{
+    background-color: #0026ff;
+}

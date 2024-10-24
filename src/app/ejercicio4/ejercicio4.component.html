@@ -1,0 +1,8 @@
+<div>
+  <input type="number" [(ngModel)]="segundos" placeholder="Ingresa segundos" />
+  <button (click)="iniciarCuentaRegresiva()">Iniciar</button>
+  <button (click)="detenerCuentaRegresiva()">Detener</button>
+</div>
+<div>
+  <p>Segundos restantes: {{ segundos }}</p>
+</div>

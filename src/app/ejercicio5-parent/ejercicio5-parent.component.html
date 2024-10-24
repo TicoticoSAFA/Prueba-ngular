@@ -1,0 +1,7 @@
+<app-ejercicio5 (nuevoComentario)="manejarNuevoComentario($event)"></app-ejercicio5>
+<div>
+  <h3>Comentarios en el componente padre:</h3>
+  <ul>
+    <li *ngFor="let comentario of comentarios">{{ comentario }}</li>
+  </ul>
+</div>
